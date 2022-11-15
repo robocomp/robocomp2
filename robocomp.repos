@@ -1,0 +1,13 @@
+repositories:
+  robocomp/robocomp_interfaces:
+    type: git
+    url: https://github.com/robocomp/robocomp_interfaces.git
+    version: main
+  robocomp/robocomp_tools:
+    type: git
+    url: https://github.com/robocomp/robocomp_tools.git
+    version: development
+  robocomp/robocomp_libs:
+    type: git
+    url: https://github.com/robocomp/robocomp_libs.git
+    version: main
