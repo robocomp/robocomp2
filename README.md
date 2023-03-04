@@ -8,6 +8,8 @@ pip3 install vcstool colcon-common-extensions
 mkdir -p ~/robocomp_ws/src
 cd ~/robocomp_ws
 wget https://raw.githubusercontent.com/robocomp/robocomp2/main/robocomp.repos
+# robocomp dependencies
+apt install qtbase5-dev libqt5xmlpatterns5-dev libopenscenegraph-dev libgsl-dev
 vcs import src < robocomp.repos
 colcon --log-level 5 build 
 ```
