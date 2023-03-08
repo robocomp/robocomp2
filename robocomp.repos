@@ -7,7 +7,7 @@ repositories:
     type: git
     url: https://github.com/robocomp/robocomp_tools.git
     version: development
-  robocomp/robocomp_libs:
+  robocomp/robocomp_cortex:
     type: git
-    url: https://github.com/robocomp/robocomp_libs.git
-    version: main
+    url: https://github.com/robocomp/cortex.git
+    version: development
