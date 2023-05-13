@@ -11,3 +11,7 @@ repositories:
     type: git
     url: https://github.com/robocomp/cortex.git
     version: development
+  robocomp/robocomp_core:
+    type: git
+    url: https://github.com/robocomp/robocomp_core.git
+    version: development
