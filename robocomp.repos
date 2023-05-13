@@ -6,7 +6,7 @@ repositories:
   robocomp/robocomp_tools:
     type: git
     url: https://github.com/robocomp/robocomp_tools.git
-    version: development
+    version: cmake_target_compile_definitions
   robocomp/robocomp_cortex:
     type: git
     url: https://github.com/robocomp/cortex.git
@@ -14,4 +14,4 @@ repositories:
   robocomp/robocomp_core:
     type: git
     url: https://github.com/robocomp/robocomp_core.git
-    version: development
+    version: pr-refactor-qt-cmake
